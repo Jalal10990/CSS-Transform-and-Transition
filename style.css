@@ -1,0 +1,53 @@
+.box{
+    height: 50px;
+    width:50px;
+    background-color: aqua;
+    border: 3px solid rgb(251, 247, 1);
+    /* rotate property  */
+    transform: rotate(360deg);
+    /* transform: rotate(0.125turn); */
+    /* transform: rotate(0.5turn); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* scale property  */
+    /* transform: scale(2); */
+    /* transform: scale3d(5deg); */
+    /* transform: skew(5deg); */
+/* transform: translateX(34px); */
+/* transform: translateY(100%) skewX(40deg) translateX(45%); */
+/* transform origin property  */
+transform-origin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: rgb(4, 74, 123);
+    border: 3px solid black;
+    height: 50vh;
+    width: 50vw;
+}
+.container2{
+background-color: burlywood;
+width: 50vw;
+height: 40vh;
+border: 3px solid black;
+}
+.box2{
+background-color: blue;
+width: 5vw;
+height: 10vh;
+/* transition-property: all; */
+/* transition-property: background-color transform;
+transition-duration:3s ;
+transition-timing-function:ease-in-out ;
+transition-delay: 1s ; */
+transition: all 3s ease-in-out 1s;
+}
+
+.translate{
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: darkred;
+}
